@@ -1,0 +1,442 @@
+/*
+*
+*   LORENZO GAVAZZENI - custom CSS
+*   Property of: Cryptodeer Srl;    
+*
+*/
+
+
+@font-face{
+  font-family: 'Minion-Pro';
+
+  src:  local('Minion-Pro'), local('Minion-Pro'),
+      url('assets/fonts/MinionPro-Regular.eot') format("opentype");
+
+  src:  local('Minion-Pro'), local('Minion-Pro'),
+      url('assets/fonts/MinionPro-Regular.tff') format("truetype");-
+}
+
+.menu-custom-font
+{
+	font-family: 'Minion-Pro';
+	font-size:1.35em;
+}
+
+.custom-font 
+{
+	font-family: 'Minion-Pro';
+}
+
+.mini-font
+{
+  font-size:0.65em;
+}
+
+#main-content .feature-paragraph-custom {
+	font-family: 'Minion-Pro';
+    font-size:1.2em;
+}
+
+.transparent-button-custom 
+{
+  background-color: transparent;
+  background-repeat: repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.trasparent-ul-custom
+{
+  background-color: transparent;
+  opacity: 5.00;
+  background-repeat: repeat;
+  cursor: pointer;
+}
+
+a.buttonasblood
+{
+ color:#fff;
+ background-color:#ef4035;
+}
+
+.dropdown-menu > li > a .redpaintdroplia{
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+}
+
+.transparent-li-custom
+{
+  background-color: transparent;
+  background-repeat: repeat;
+  cursor: pointer;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    border-radius: 0;
+    color: #0a8fd5;
+    background-color: #fff;
+}
+
+.navbar-default {
+    background-color: #0a8fd5;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: rgba(255,255,255,.5);
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: rgba(255,255,255,.5);
+}
+
+.navbar-inverse {
+    background-color: #222;
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+.navbar-default .navbar-brand,
+.navbar-inverse .navbar-brand {
+    padding: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 1;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-inverse .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-inverse .navbar-brand:focus {
+    opacity: 1;
+}
+
+.navbar-default .navbar-nav li a,
+.navbar-inverse .navbar-nav li a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-inverse .navbar-nav li a:hover {
+    color: rgba(255,255,255,.5);
+}
+
+@media(min-width:768px) {
+    .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:hover,
+    .navbar-default .navbar-nav>.active>a:focus,
+    .navbar-inverse .navbar-nav>.active>a,
+    .navbar-inverse .navbar-nav>.active>a:hover,
+    .navbar-inverse .navbar-nav>.active>a:focus {
+        border-radius: 5px;
+    }
+
+    .navbar-fixed-top.navbar-expanded {
+        padding: 30px 0;
+    }
+
+    .navbar-fixed-top {
+        padding: 15px 0;
+        -webkit-transition: padding .5s;
+        -moz-transition: padding .5s;
+        transition: padding .5s;
+    }
+
+    .navbar-fixed-top .navbar-brand:hover {
+        opacity: .5;
+    }
+
+    .navbar-default.navbar-expanded,
+    .navbar-inverse.navbar-expanded {
+        border: 0;
+        background: 0 0;
+    }
+}
+
+.navbar a:focus {
+    outline: 0;
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+#navbar .navbar-inner
+{
+  border-bottom: 1px solid;
+  padding: 5px 0;
+}
+
+.fix-img-navbar
+{
+  max-width:167px;
+  margin-top:0px;
+}
+
+.background-image-overlay {
+    display:block;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    background:url(logo/background-image-overlay.png) repeat;
+}
+
+/*header 
+{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  background-color: black;
+
+}
+
+header:after
+{
+    background:url(logo/background-image-overlay.png) repeat; 
+    top:0;
+    left:0;
+    bottom: 0;
+    right:0;
+    position: absolute;
+    z-index: -1;
+}*/
+
+.custom-background
+{
+  background-image:url(assets/img/bg5.jpg);
+  left:0;
+  top:0;
+  overflow:hidden;
+  margin:0;
+
+}
+
+.custom-image-overlay
+{
+  background:url(logo/background-image-overlay.png) repeat fixed;
+  width:100%;
+  height:100%;
+  display:block;
+  top:0px;
+  opacity:5.0; 
+}
+
+.container-res
+{
+  width: 100%;
+  margin:auto; 
+
+}
+
+.img-fix-brand-dim
+{
+    width:auto;
+    height:auto;
+}
+
+header .brand-name-custom {
+  font-family: "Minion-Pro", "MinionPro-Regular";
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 900;
+  margin-top: 15px;
+}
+
+header .brand-name-subtext-custom {
+  font-family: "Minion-Pro", "MinionPro-Regular";
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 300px;
+}
+
+.ico-style
+{
+  width:28%;
+  height:28%;
+}
+
+.tetra-style
+{
+
+  width:30%;
+  height:30%;
+  margin:auto;
+
+}
+
+/* Team Name | Team Social */
+
+.about-carousel .item-custom .caption-custom {
+  padding: 15px;
+  color: rgba(164, 44, 44, 0.7);
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.about-carousel .item .caption-custom h3 {
+  margin: 0;
+}
+.about-carousel .item .caption-custom hr {
+  margin: 5px auto;
+  max-width: 50px;
+}
+.about-carousel .item .caption-custom p {
+  margin: 0;
+}
+.about-carousel .item .caption-custom ul.social {
+  margin-top: 5px;
+}
+.about-carousel .item .caption-custom ul.social li a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.about-carousel .item .caption-custom ul.social li a:hover,
+.about-carousel .item .caption-custom ul.social li a:focus {
+  color: white;
+}
+
+.about-carousel .owl-controls {
+  margin-top: 0;
+}
+.about-carousel .owl-controls .owl-prev,
+.about-carousel .owl-controls .owl-next {
+  text-align: center;
+  height: 40px;
+  width: 30px;
+  border-radius: 0 !important;
+  line-height: 0px;
+  font-size: 30px !important;
+  margin: auto 0 !important;
+  top: 0;
+  bottom: 0;
+  background-color: #ef4035 !important;
+  color: white !important;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.about-carousel .owl-controls .owl-prev:hover,
+.about-carousel .owl-controls .owl-next:hover {
+  opacity: 0;
+}
+.about-carousel .owl-controls .owl-prev {
+  left: 15px;
+}
+.about-carousel .owl-controls .owl-next {
+  right: 15px;
+}
+
+img.center-all
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+ul.center-all
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+li.center-all
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+div.pouring-paint
+{
+    background-image:url(../img/bg5.jpg);
+    left:0; 
+    top:0; 
+    overflow:hidden; 
+    margin:0;
+}
+
+div.super-background
+{
+    background:url(../../logo/background-image-overlay.png) repeat fixed;
+    width:100%;
+    height:100%;
+    display:block;
+    top:0px;
+    opacity:5.0;
+}
+
+header.pouring-paint
+{
+    background-image:url(../img/bg5.jpg);
+    left:0; 
+    top:0; 
+    overflow:hidden; 
+    margin:0;
+}
+
+footer.pouring-paint
+{
+    background-image:url(../img/bg5.jpg);
+    left:0; 
+    top:0; 
+    overflow:hidden; 
+    margin:0;
+}
+
+footer.super-background
+{
+    background:url(../../logo/background-image-overlay.png) repeat fixed;
+    width:100%;
+    height:100%;
+    display:block;
+    top:0px;
+    opacity:5.0;
+}
+
+footer.hating-edge
+{
+  padding: 0px 0px 0px;
+}
+
+@media (max-width: 768px) {
+  header.hating-edge {
+    padding: 0px;
+  }
+@media (max-width: 768px) {
+  div.super-background {
+    padding: 100px;
+  }

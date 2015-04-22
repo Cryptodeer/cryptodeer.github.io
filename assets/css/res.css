@@ -1,0 +1,25 @@
+/* It is recommended to place all your extra/additional CSS rules here */
+
+div.responsive-last-element 
+{
+box-sizing:border-box;
+width: 100%;
+padding: 15px;
+text-align: center;
+
+}
+
+div i 
+{
+  box-sizing:border-box;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+}
+
+.text-centerx
+{
+  text-align: center;
+  margin-left: 50%;
+  margin-right: 50%
+}
