@@ -263,14 +263,16 @@ header:after
 }
 
 header .brand-name-custom {
+  text-align: center;
   font-family: "Minion-Pro", "MinionPro-Regular";
-  font-size: 55px;
-  line-height: 55px;
-  font-weight: 900;
+  font-size: 65px;
+  line-height: 65px;
+  font-weight: 900px;
   margin-top: 15px;
 }
 
 header .brand-name-subtext-custom {
+  text-align: center;
   font-family: "Minion-Pro", "MinionPro-Regular";
   font-size: 25px;
   line-height: 25px;

@@ -214,10 +214,10 @@
                         <div class="media-body">
                             <h3 class="media-heading custom-font">Open Source</h3>
                             <ul>
-                                <li>Amico degli sviluppatori</li>
-                                <li>Facile da cambiare</li>
-                                <li>Personalizzabile</li>
-                                <li>Senza costi di acquisto</li>
+                                <li>Facile da sviluppare</li>
+                                <li>Supportato dalla Community</li>
+                                <li>Veloce da innovare</li>
+                                <li>Piattaforma senza costi</li>
                             </ul>
                         </div>
                     </div>
@@ -247,9 +247,9 @@
                             <h3 class="media-heading custom-font">Economico</h3>
                             <ul>
                                 <li>Solo costi di gestione</li>
+                                <li>Assistenza </li>
                                 <li>Semplice da installare</li>
-                                <li>Assistenza</li>
-                                <li>Core con UX integrata di base</li>
+                                <li>Hardware Semplice</li>
                             </ul>
                         </div>
                     </div>
@@ -767,14 +767,23 @@
     <script src="assets/js/plugins/jqBootstrapValidation.js"></script>
     <!-- Vitality Theme Scripts -->
     <script src="assets/js/vitality.js"></script>
-        <script>
-    $(".deerfix1").css({
-        "text-align":"center","font-size":"6vw"
+    <script>
+    $(document).ready(function(){
+        var isMobile= false;
+
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) 
+            isMobile = true;
+        var fsize = ( window.mobilecheck ? "6vw" : "3vw" );
+        $(".deerfix1").css({
+             "text-align":"center","font-size":fsize
+        });
+
+        $(".deerfix2").css({
+            "text-align":"center","font-size":fsize, "line-height": fsize
+        });
     });
 
-    $(".deerfix2").css({
-        "text-align":"center","font-size":"4vw", "line-height": "4vw"
-    });
+
     </script>
 </body>
 

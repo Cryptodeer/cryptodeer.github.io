@@ -122,7 +122,7 @@
         <div class="super-background">
             <div class="intro-content container-res">
                 <img src="logo/cryptodeer_white_logo_short.png" class="img-responsive img-centered img-fix-brand-dim" alt="cryptodeer_brand_logo">
-                <div class="brand-name-custom deerfix1" >Cryptodeer</div>
+                <div class="brand-name-custom deerfix1"> Cryptodeer</div>
                 <hr class="colored">
                 <div class="brand-name-subtext-custom deerfix2">Blockchain based payment backbone</div>
                 <br/>
@@ -183,7 +183,7 @@
                         <p class="custom-font">Tetra is based on the Blockchain architecture.
                          Network is distributed, exchanges and transactions are safe.
                          Using blockchain's architecture Cryptodeer is not a central authority.
-                         But in a single network a business or a person can be the central authority.</p>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -762,13 +762,22 @@
     <!-- Vitality Theme Scripts -->
     <script src="assets/js/vitality.js"></script>
     <script>
-    $(".deerfix1").css({
-        "text-align":"center","font-size":"6vw"
+    $(document).ready(function(){
+        var isMobile= false;
+
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) 
+            isMobile = true;
+        var fsize = ( window.mobilecheck ? "6vw" : "3vw" );
+        $(".deerfix1").css({
+             "text-align":"center","font-size":fsize
+        });
+
+        $(".deerfix2").css({
+            "text-align":"center","font-size":fsize, "line-height": fsize
+        });
     });
 
-    $(".deerfix2").css({
-        "text-align":"center","font-size":"4vw", "line-height": "4vw"
-    });
+
     </script>
 </body>
 
