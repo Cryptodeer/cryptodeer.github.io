@@ -759,6 +759,7 @@
     <script src="assets/js/plugins/wow/wow.min.js"></script>
     <script src="assets/js/contact_me.js"></script>
     <script src="assets/js/plugins/jqBootstrapValidation.js"></script>
+    <script src="assets/js/jquery.cookiesdirective.js"></script>
     <!-- Vitality Theme Scripts -->
     <script src="assets/js/vitality.js"></script>
     <script>
@@ -775,6 +776,17 @@
         $(".deerfix2").css({
             "text-align":"center","font-size":fsize, "line-height": fsize
         });
+
+        $.cookiesDirective({
+            privacyPolicyUri: 'https://github.com/cryptodeer/cryptodeer.github.io/blob/master/cookiespolicy',
+            explicitConsent: true,
+            position : 'bottom',
+            scriptWrapper: function(){}, 
+            cookieScripts: 'Google Analytics, My Stats Ultimate ', 
+            backgroundColor: '#333333',
+            linkColor: '#ffffff'
+        });
+
     });
 
 
