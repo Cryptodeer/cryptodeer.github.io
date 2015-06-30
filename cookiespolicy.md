@@ -1,4 +1,5 @@
 Cryptodeer S.R.L. Cookies Policy
+================================
 
 In common with most other websites, we use cookies and similar technologies to help us understand how people use this site so that we can keep improving our Platform. We have created this Cookies Policy to provide you with clear and explicit information about the technologies that we use on Cryptodeer S.R.L., and your choices when it comes to these technologies.
 
@@ -12,6 +13,7 @@ To find out more about cookies, including how to see what cookies have been set 
 We use our own cookies to recognise you when you visit our website or use our apps. This means that you don’t have to log in each time you visit, and we can remember your preferences and settings.
 
 Third Party Cookies
+-------------------
 
 In addition to our own cookies, we work with various reputable companies to help us analyse how the Platform is used, and to optimise our Website and Apps to deliver the best possible experience. The following companies help us achieve this through use of cookies:
 Google Analytics and Google Website Optimizer
