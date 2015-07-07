@@ -654,7 +654,7 @@
                         <div class="col-xs-6 col-md-4 text-center">
                             <div class="text-center">
                                 <a href="https://github.com/cryptodeer/tetra" target="_blank">
-                                <button type="button" class="btn btn-primary dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                                <button type="button" class="btn btn-primary dropdown-toggle btn-pad" aria-haspopup="true" aria-expanded="false">
                                     Tetra
                                   </button>
                                 </a>
@@ -663,7 +663,7 @@
                         <div class="col-xs-6 col-md-4 text-center">
                             <div class="text-center">
                                 <a href="https://github.com/cryptodeer/deerwallet" target="_blank">
-                                <button type="button" class="btn btn-warning dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                                <button type="button" class="btn btn-warning dropdown-toggle btn-pad" aria-haspopup="true" aria-expanded="false">
                                     Deerwallet
                                   </button>
                                 </a>
@@ -672,7 +672,7 @@
                         <div class="col-xs-6 col-md-4 text-center ">
                             <div class="text-center">
                                 <a href="https://github.com/cryptodeer/deerconsole" target="_blank">
-                                    <div type="button" class="btn btn-success dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                                    <div type="button" class="btn btn-success dropdown-toggle btn-pad" aria-haspopup="true" aria-expanded="false">
                                         Deerconsole
                                       </div>
                                 </a>    
@@ -811,6 +811,9 @@
             "text-align":"center","font-size":fsize, "line-height": fsize
         });
 
+        $(".btn-pad").css({
+            "margin":"6px"
+        });
         $.cookiesDirective({
             privacyPolicyUri: 'https://github.com/cryptodeer/cryptodeer.github.io/blob/master/cookiespolicy.md',
             explicitConsent: true,
